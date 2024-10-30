@@ -19,7 +19,8 @@
 
 #include "new"
 
-const std::nothrow_t std::nothrow = { };
+// Commit to make it work with Arduino IDE
+// const std::nothrow_t std::nothrow = { };
 
 //Name selected to be compatable with g++ code
 std::new_handler __new_handler;
